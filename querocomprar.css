@@ -1,0 +1,98 @@
+/* Section Capa */
+
+
+
+.capa{
+  background-image: url("../img/querovender.jpg");  
+   background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding-top:200px;
+  height:400px;
+
+}
+
+.capa h1
+       {
+  color:#ffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:50px;
+    margin-right: 200px;
+      text-shadow: 2px 1px black;
+        border-bottom: solid 2px;
+      border-bottom-color: #7b0113;
+       }
+
+
+
+
+
+
+.capa h3
+       {
+  color:#ffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:30px;
+    margin-right: 200px;
+      text-shadow: 2px 1px black;
+       }
+
+
+
+
+ @media(max-width:600px){
+    .capa{
+      height:400px;
+     
+    }
+    .capa h1{
+      text-align: center;
+     margin-right: 0;
+    }
+     .capa h3{
+      text-align: center;
+     margin-right: 0;
+    }
+  }
+
+    
+   
+
+    
+
+/* Section O que compramos */
+
+#siga-instagram{
+
+  margin-top:3em;
+  margin-bottom: 3em;
+}
+
+#siga-instagram img{
+  margin-top: 3em;
+}
+
+
+
+
+/* Section Vendemos para todo País */
+
+#querocomprar{
+   font-family: 'Open Sans Condensed', sans-serif;
+ 
+   color: #818181;
+  
+   margin-top:3em;
+   margin-bottom: 3em;
+   padding:50px;
+ 
+
+}
+#querocomprar p{
+  font-size:16px;
+}
+#querocomprar h1{
+  margin-bottom: 2em;
+}
+

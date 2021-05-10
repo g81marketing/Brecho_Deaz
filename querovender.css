@@ -1,0 +1,123 @@
+
+
+
+/* Section Capa */
+
+
+.capa{
+  background-image: url("../img/brechodeaz1.jpg");  
+  background-size: cover;
+    background-position: top-center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top:200px;
+   height:400px;
+  
+  }
+  
+  .capa h1
+         {
+    color:#ffff;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size:50px;
+      margin-right: 200px;
+        text-shadow: 2px 1px black;
+        border-bottom: solid 2px;
+        border-bottom-color: #7b0113;
+         }
+  
+  
+  
+
+  
+  
+  .capa h3
+         {
+    color:#ffff;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size:30px;
+      margin-right: 200px;
+        text-shadow: 2px 1px black;
+  
+  
+  }
+  
+   @media(max-width:600px){
+      .capa{
+        height:400px;
+       
+      }
+      .capa h1{
+        text-align: center;
+       margin-right: 0;
+      }
+       .capa h3{
+        text-align: center;
+       margin-right: 0;
+      }
+    }
+
+    /* <!-- Section Agende um Horário -->  */
+
+#agende{
+  color:#fc0126;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #7b0113;
+}
+
+#agende a{
+	color:white;
+}
+
+#agende button{
+	  background-image: linear-gradient(to bottom right, #7b0113, #f09ba0);
+}
+
+/* <!-- O que compramos -->   */
+
+.painel{
+
+	padding:50px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #7b0113;
+}
+.painel h2{
+	margin-bottom:30px;
+	color: #7b0113;
+}
+.painel h4{
+	color: #7b0113;
+
+}
+.painel a{
+	font-size:50px;
+	color:#fc0126;
+}
+.panel-body{
+	font-size:20px;
+}
+.panel-title a{
+		color:#fc0126;
+}
+
+/* <!-- Section  Texto --> */
+.compras{
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 18px;
+margin-top:50px;
+padding-left: 200px;
+padding-right: 200px;
+
+
+}
+.compras h3{
+	font-size:20px;
+	color:#7b0113;
+	font-weight: bold;
+}
+
+
+
+    
+   
+

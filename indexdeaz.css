@@ -1,0 +1,380 @@
+
+
+body {
+   font-family: 'Open Sans Condensed', sans-serif;
+   color: #818181;
+    width:100%;
+  }
+   .important{
+
+    color:#ffff;
+  }
+  
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+
+  
+  .titulo1{
+font-family: 'Open Sans Condensed', sans-serif;
+       color:#7b0113;
+       font-size:40px;
+       font-weight: bold;
+}
+
+.titulo2{
+font-family: 'Open Sans Condensed', sans-serif;
+     color:#7b0113;
+     font-size:30px;
+        font-weight: bold;
+}
+.tituloicones{
+font-size: 5em;
+  color:#7b0113;
+}
+.tituloicones :hover{
+  color: #f09ba0;
+  font-size: 80px;
+}
+
+
+
+
+
+
+
+
+
+/* <!-- Section Bem Vindo --> */
+
+ .icones h1{
+   color:#5d010f;
+   font-weight: bold;
+   margin-bottom: 1em;
+ }
+ .icones h3{
+     font-family: 'Open Sans Condensed', sans-serif;
+        color:#5d010f;
+        letter-spacing: 2px;
+
+ }
+ 
+
+
+/* Section da Capa */
+
+.capa-nova{
+  margin-top: 1,5em;
+  background-image: url("../img/capa1.png");
+  background-size: cover;
+background-position: top-center;
+background-repeat: no-repeat;
+height:500px;
+}
+.capanova-text{
+ margin-top: 15em;
+}
+
+.capa-nova h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:50px;
+    color:#fff;
+    text-shadow: 2px 1px black;
+
+}
+.capa-nova h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:30px;
+    color:#fff;
+    text-shadow: 2px 1px black;
+   
+}
+.botaocomprar button,
+.capa-nova button{
+   background-image: linear-gradient(to bottom right, #7b0113, #f09ba0);
+   padding-right: 30px;
+  padding-left: 30px;
+
+}
+.botaocomprar button a,
+.capa-nova button a{
+  color:white;
+}
+
+@media(max-width:600px){
+  .capa-nova{
+    height:500px;
+     position: relative;
+  }
+  .capa-nova h1{
+    text-align: center;
+    padding-right:0;
+  }
+   .capa-nova h2{
+    text-align: center;
+    padding-right:0;
+  }
+  .capa-nova button{
+    position:absolute;
+transform: translate( -50%);
+left:50%;
+}
+.capanova-text{
+margin-top: 10em;
+  }
+}
+
+/* Section quem somos */
+
+
+.quemsomos{ 
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+/* <!-- Section O que Vendemos        --> */
+
+
+
+.oquecompra1 p{
+  color: #7b0113;
+  font-size: 18px;
+}
+
+.oquecompra1{
+padding-right:3em;
+padding-left:3em;
+
+}
+.oquecompra1 img{
+ width:4em;
+}
+@media(max-width:800px){
+
+
+ .oquecompra1 img{
+   width:50%;
+ }
+ 
+ .tituloicones{
+   font-size:55px;
+ }
+
+}
+
+.oquecompra2{
+ display:none;
+
+}
+
+@media(max-width:800px){
+ .oquecompra1{
+   display:none;
+
+ }
+ .oquecompra2{
+   display:block;
+ }
+}
+
+#oquevendemos{
+  padding-right:100px;
+    padding-left:100px;
+}
+
+
+/* Section Galeria */
+
+
+#galeria{
+  margin-top:3em;
+ padding:3em;
+  margin-bottom: 3em;
+}
+#galeria img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+/* Section Mapa */
+
+.mapa  h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.mapa{
+ margin-bottom:3em;
+ margin-top:50px;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+
+
+
+
+
+
+/* 
+Rodapé */
+  
+#rodape{
+  color: white;
+  font-size: 18px;
+  padding: 50px;
+font-family: 'Open Sans Condensed', sans-serif;
+background-image: linear-gradient(to bottom right, #7b0113, #f09ba0);
+
+}
+#rodape p{
+  font-size:15px;
+}
+
+.listarodape{
+  display:block;
+  color: #666464;
+}
+
+ .listarodape li{
+  display:block;
+  color: white;
+  font-size:15px;
+  text-decoration: none;
+}
+
+.listarodape a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.midias li{
+  display: inline-block;
+}
+
+
+
+
+
+
+  
+
+ 
+
+
+
+
+  
+ 
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+   
+  
+
+
+  
+ 
+
+
+
+
+ .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+
+
+
+
+  
+
+
+
+
+
+
+
+ 
+  
+  
+    
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
